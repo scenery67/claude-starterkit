@@ -3,7 +3,32 @@
     "allow": [
       "Bash(pnpm create *)",
       "Bash(npm create *)",
-      "Bash(yes)"
+      "Bash(yes)",
+      "Bash(mkdir -p src)",
+      "Bash(mv app *)",
+      "Bash(npx shadcn-ui@latest init -d)",
+      "Bash(npx shadcn@latest init -d)",
+      "Bash(npx shadcn@latest add -y button input label card dialog dropdown-menu select separator sonner tabs badge avatar skeleton)",
+      "Bash(npm install *)",
+      "Bash(rm README.md)",
+      "Bash(mv README_NEW.md README.md)",
+      "Bash(timeout 30 npm run dev)",
+      "Bash(tee dev-output.log)",
+      "Bash(npm run *)",
+      "Bash(mv components *)",
+      "Bash(mv lib *)",
+      "Bash(mv components/* .)",
+      "Bash(mv lib/* ../lib/)",
+      "Bash(rmdir components *)",
+      "Bash(curl -s http://localhost:3000)",
+      "Bash(grep -E \"\\\\.\\(json|md|ts|mjs\\)$\")",
+      "Bash(grep -E \"\\\\.md$|\\\\.json$|\\\\.ts$|\\\\.mjs$\")",
+      "Bash(npm ls *)",
+      "PowerShell(Get-Process *)",
+      "Bash(pkill -9 node)",
+      "Bash(cp -r \"/c/Users/4562s/OneDrive/문서/01 Workspace/claude-starterkit\" /c/projects/claude-starterkit)",
+      "Bash(rsync -av --exclude='node_modules' --exclude='.next' --exclude='.git' \"/c/Users/4562s/OneDrive/문서/01 Workspace/claude-starterkit/\" /c/projects/claude-starterkit/)",
+      "Bash(git add *)"
     ]
   }
 }
